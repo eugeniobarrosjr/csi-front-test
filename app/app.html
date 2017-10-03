@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/app.css" media="screen,projection" />
+
+    <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+    <title>Generic Keep App</title>
+
+</head>
+
+<body>
+    <div id="page" class="grey lighten-5">
+        <nav>
+            <div class="nav-wrapper red lighten-1">
+                <a href="#!" class="brand-logo">Generic Keep App</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a id="sign-out" href="#"><i class="material-icons left">account_circle</i>Sair</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row"></div>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row valign-wrapper add-container">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">mode_edit</i>
+                            <textarea id="txt-note" class="materialize-textarea"></textarea>
+                            <label for="txt-note">Digite sua anotação</label>
+                        </div>
+                        <div class="col s4">
+                            <button id="btn-save" class="btn red lighten-1 waves-effect waves-light" type="button">Salvar</button></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="divider"></div>
+            <div class="note-container">
+            </div>
+
+
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <script src="js/syncAuth.js"></script>
+        <script src="js/syncDB.js"></script>
+        <script src="js/addNotesInfo.js"></script>
+        <script src="js/noteController.js"></script>
+        <script src="js/newNote.js"></script>
+        <script src="js/mountListNotes.js"></script>
+
+
+</body>
+
+
+</html>

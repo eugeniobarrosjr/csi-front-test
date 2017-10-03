@@ -1,0 +1,38 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background: #ef5350;
+}
+
+#page {
+    width: 500px;
+}
+
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.progress {
+    visibility: hidden;
+}
+
+.progress-active {
+    visibility: visible;
+}

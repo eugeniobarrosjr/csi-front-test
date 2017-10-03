@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+    <title>Generic Keep App</title>
+
+</head>
+
+<body>
+    <div id="page" class="row">
+        <div class="col s12 z-depth-6 card-panel">
+            <form class="form">
+                <div class="row">
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">mail_outline</i>
+                        <input id="txtEmail" type="email" class="validate" required="" aria-required="true">
+                        <label id="email-label" for="txtEmail" data-error="">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">lock_outline</i>
+                        <input id="txtPassword" type="password" class="validate" required="" aria-required="true">
+                        <label id="password-label" for="txtPassword" data-error="">Senha</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <a href="#" id="btnLogin" class="btn red lighten-1 waves-effect waves-light col s12">Login</a>
+                    </div>
+                </div>
+            </form>
+            <div class="progress">
+                <div class="indeterminate red lighten-1"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+
+    <script src="js/index.js"></script>
+    <script src="js/addNotesInfo.js"></script>
+    <script src="js/noteController.js"></script>
+    <script src="js/mountListNotes.js"></script>
+
+</body>
+
+
+</html>

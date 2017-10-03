@@ -1,0 +1,29 @@
+.add-container {
+    margin-bottom: -5px;
+}
+
+.card-panel p {
+    color: #fff;
+    margin: 0;
+}
+
+.card-panel span {
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: super;
+    margin-right: 5px;
+}
+
+.card-panel p a {
+    color: #fff;
+    margin: 0;
+}
+
+.note-invisible {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.clickable {
+    cursor: pointer;
+}
